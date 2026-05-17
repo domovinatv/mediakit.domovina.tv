@@ -102,26 +102,26 @@ Slobodno smijete:
 
 Pod sljedećim uvjetima:
 
-- **Atribucija** — morate navesti odgovarajuće priznanje izvora (DOMOVINA.tv), poveznicu na licencu i naznačiti jesu li napravljene izmjene
+- **Atribucija** — morate navesti odgovarajuće priznanje autoru, poveznicu na licencu i naznačiti jesu li napravljene izmjene
 - **Bez prerada** — ako preradite, transformirate ili nadograđujete materijal, ne smijete distribuirati izmijenjeni materijal
 
 Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode).
 
-## Žigovi (Trademark)
+## O brendu i nazivima
 
-Nazivi **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, stilizirano slovo „D" ispunjeno bojama hrvatske zastave te svi pripadajući logotipi, ikone i vizualni znakovi (zajednički „Žigovi") jesu žigovi društva **DOMOVINA.tv**.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"** i **„Domovina Energy"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
-CC BY-ND 4.0 licenca odnosi se isključivo na **autorska prava** na grafičkom djelu. Ne dodjeljuje nikakvo pravo, dopuštenje ni odobrenje za korištenje Žigova kao žigova. Posebno, **NIJE dopušteno**:
+CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
-- Koristiti Žigove (ili zbunjujuće slične znakove) kao naziv, logotip ili identifikator vlastitog proizvoda, usluge, tvrtke ili projekta
-- Koristiti Žigove na način koji sugerira sponzorstvo, odobrenje, partnerstvo ili povezanost s DOMOVINA.tv koja ne postoji
-- Registrirati Žigove (ili zbunjujuće slične znakove) kao žigove, internetske domene, korisnička imena na društvenim mrežama ili nazive tvrtki
-- Mijenjati Žigove na bilo koji način (neovisno zabranjeno i uvjetom *NoDerivatives* iz CC BY-ND 4.0)
+Ako razvijate nešto u srodnom prostoru i razmišljate o korištenju ili referenciranju ovih naziva ili materijala, **slobodno se javite prije** — autor je otvoren za razgovor o suradnji, atribuciji ili preklapanju opsega.
 
-**Dopuštena je** činjenična, opisna ili uredničko-novinarska upotreba Žigova radi referenciranja DOMOVINA.tv i njegovih proizvoda — primjerice u novinskim člancima, recenzijama, akademskim radovima ili tehničkoj dokumentaciji — uz uvjet da je takva upotreba poštena, ne dovodi u zabludu i ne implicira odnos koji ne postoji.
+Bez prethodnog kontakta dobrodošla je sljedeća upotreba:
 
-Sva prava na Žigove koja nisu izričito dodijeljena ovom napomenom ostaju pridržana.
+- Uredničko, novinarsko, akademsko ili tehničko referenciranje projekta (npr. spominjanje u članku, studiji, blog objavi ili dokumentaciji), uz uvjet da je referenca poštena i ne implicira odnos koji ne postoji
+- Dijeljenje ili ugradnja neizmijenjenih logotipa radi identifikacije projekta
+
+Autor zadržava sva prava koja po važećem pravu mogu nastati iz autorstva grafičkog djela i prvenstva upotrebe naziva, uključujući pravo na buduću formalnu registraciju žiga.
 
 ## Kontakt
 
-Za pitanja o korištenju brand resursa, licenciranju upotrebe Žigova izvan dopuštenog opsega, suradnji ili partnerstvima obratite se timu projekta **Domovina**.
+Za pitanja o korištenju brand resursa, mogućim preklapanjima naziva, suradnji ili partnerstvima obratite se autoru projekta **Domovina**.
