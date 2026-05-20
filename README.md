@@ -10,6 +10,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_energy_logo_square.svg" width="140" alt="Domovina Energy">
   &nbsp;&nbsp;
   <img src="domovina_klubovi_logo_square.svg" width="140" alt="Domovina Klubovi">
+  &nbsp;&nbsp;
+  <img src="domovina_cloud_logo_square.svg" width="140" alt="Domovina Cloud">
 </p>
 
 ## O repozitoriju
@@ -63,6 +65,13 @@ Otvoreni javni katalog svih hrvatskih nogometnih klubova — od SuperSport HNL-a
 
 <br clear="left">
 
+### Domovina Cloud
+<img src="domovina_cloud_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Cloud logotip">
+
+Self-hosted platforma za deployment cijelog Domovina ekosistema (`app.domovina.link`). Pokreće sve domovina.* poddomene s vlastite infrastrukture — bez ovisnosti o vanjskim PaaS dobavljačima. Središnji simbol — tri složena pravokutnika s indikatorima statusa — predstavlja slojeve aplikacijskih kontejnera (Docker) i aktivne servise koji čine osnovu platforme. Vizualno evocira ikonografiju server rack-a, što je univerzalan znak za samostalno hostiranu infrastrukturu.
+
+<br clear="left">
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -71,6 +80,7 @@ Otvoreni javni katalog svih hrvatskih nogometnih klubova — od SuperSport HNL-a
 | Domovina AI | [`domovina_ai_logo_square.svg`](domovina_ai_logo_square.svg) | [`domovina_ai_logo_square.png`](domovina_ai_logo_square.png) |
 | Domovina Energy | [`domovina_energy_logo_square.svg`](domovina_energy_logo_square.svg) | [`domovina_energy_logo_square.png`](domovina_energy_logo_square.png) |
 | Domovina Klubovi | [`domovina_klubovi_logo_square.svg`](domovina_klubovi_logo_square.svg) | [`domovina_klubovi_logo_square.png`](domovina_klubovi_logo_square.png) |
+| Domovina Cloud | [`domovina_cloud_logo_square.svg`](domovina_cloud_logo_square.svg) | [`domovina_cloud_logo_square.png`](domovina_cloud_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -83,7 +93,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi; do
+for name in tv ai energy klubovi cloud; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
@@ -119,7 +129,7 @@ Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecom
 
 ## O brendu i nazivima
 
-**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"** i **„Domovina Klubovi"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"** i **„Domovina Cloud"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
 CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
