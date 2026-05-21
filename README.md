@@ -14,6 +14,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_cloud_logo_square.svg" width="140" alt="Domovina Cloud">
   &nbsp;&nbsp;
   <img src="domovina_karta_logo_square.svg" width="140" alt="Domovina Karta">
+  &nbsp;&nbsp;
+  <img src="domovina_provjera_logo_square.svg" width="140" alt="Domovina Provjera">
 </p>
 
 ## O repozitoriju
@@ -81,6 +83,13 @@ Interaktivna krovna GIS karta Hrvatske (`gis.domovina.ai`) — 556 jedinica loka
 
 <br clear="left">
 
+### Domovina Provjera
+<img src="domovina_provjera_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Provjera logotip">
+
+Obitelj offline web alata za samoprocjenu mentalnog zdravlja u odraslih, izgrađena oko validiranih kliničkih screenera. Prvi modul je **ADHD.provjera** prema upitniku ASRS v1.1 (Svjetska zdravstvena organizacija i Harvard Medical School), dostupan na `stepanic.github.io/adhd-provjera`. Sva obrada odgovora odvija se isključivo u pregledniku korisnika — nijedan podatak ne napušta uređaj. Središnji simbol — stilizirani mozak iz prednjeg pogleda, s dvije hemisfere, *corpus callosumom* i tankim vijugama — neposredno označava domenu proizvoda: neurokognitivnu i mentalno-zdravstvenu samoprocjenu.
+
+<br clear="left">
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -91,6 +100,7 @@ Interaktivna krovna GIS karta Hrvatske (`gis.domovina.ai`) — 556 jedinica loka
 | Domovina Klubovi | [`domovina_klubovi_logo_square.svg`](domovina_klubovi_logo_square.svg) | [`domovina_klubovi_logo_square.png`](domovina_klubovi_logo_square.png) |
 | Domovina Cloud | [`domovina_cloud_logo_square.svg`](domovina_cloud_logo_square.svg) | [`domovina_cloud_logo_square.png`](domovina_cloud_logo_square.png) |
 | Domovina Karta | [`domovina_karta_logo_square.svg`](domovina_karta_logo_square.svg) | [`domovina_karta_logo_square.png`](domovina_karta_logo_square.png) |
+| Domovina Provjera | [`domovina_provjera_logo_square.svg`](domovina_provjera_logo_square.svg) | [`domovina_provjera_logo_square.png`](domovina_provjera_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -103,7 +113,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud karta; do
+for name in tv ai energy klubovi cloud karta provjera; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
@@ -139,7 +149,7 @@ Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecom
 
 ## O brendu i nazivima
 
-**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"** i **„Domovina Karta"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"**, **„Domovina Karta"** i **„Domovina Provjera"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
 CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
