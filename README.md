@@ -12,6 +12,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_klubovi_logo_square.svg" width="140" alt="Domovina Klubovi">
   &nbsp;&nbsp;
   <img src="domovina_cloud_logo_square.svg" width="140" alt="Domovina Cloud">
+  &nbsp;&nbsp;
+  <img src="domovina_karta_logo_square.svg" width="140" alt="Domovina Karta">
 </p>
 
 ## O repozitoriju
@@ -72,6 +74,13 @@ Self-hosted platforma za deployment cijelog Domovina ekosistema (`app.domovina.l
 
 <br clear="left">
 
+### Domovina Karta
+<img src="domovina_karta_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Karta logotip">
+
+Interaktivna krovna GIS karta Hrvatske (`gis.domovina.ai`) — 556 jedinica lokalne samouprave, 6.759 naselja, 901 nogometni klub, zračne luke i prilazni koridori, sve nad otvorenim podacima. Središnji simbol — kartografska oznaka pozicije (*map pin*) s kružnim središtem — univerzalno je prepoznatljiv znak za lokaciju na karti i neposredno označava domenu proizvoda: geografiju i prostorne podatke.
+
+<br clear="left">
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -81,6 +90,7 @@ Self-hosted platforma za deployment cijelog Domovina ekosistema (`app.domovina.l
 | Domovina Energy | [`domovina_energy_logo_square.svg`](domovina_energy_logo_square.svg) | [`domovina_energy_logo_square.png`](domovina_energy_logo_square.png) |
 | Domovina Klubovi | [`domovina_klubovi_logo_square.svg`](domovina_klubovi_logo_square.svg) | [`domovina_klubovi_logo_square.png`](domovina_klubovi_logo_square.png) |
 | Domovina Cloud | [`domovina_cloud_logo_square.svg`](domovina_cloud_logo_square.svg) | [`domovina_cloud_logo_square.png`](domovina_cloud_logo_square.png) |
+| Domovina Karta | [`domovina_karta_logo_square.svg`](domovina_karta_logo_square.svg) | [`domovina_karta_logo_square.png`](domovina_karta_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -93,7 +103,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud; do
+for name in tv ai energy klubovi cloud karta; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
@@ -129,7 +139,7 @@ Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecom
 
 ## O brendu i nazivima
 
-**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"** i **„Domovina Cloud"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"** i **„Domovina Karta"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
 CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
