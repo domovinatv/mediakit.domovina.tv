@@ -20,6 +20,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_pay_logo_square.svg" width="140" alt="Domovina Pay">
   &nbsp;&nbsp;
   <img src="domovina_wallet_logo_square.svg" width="140" alt="Domovina Wallet">
+  &nbsp;&nbsp;
+  <img src="domovina_lopta_logo_square.svg" width="140" alt="Lopta je okrugla">
 </p>
 
 ## O repozitoriju
@@ -108,6 +110,13 @@ Self-custody EURe novčanik na Gnosis Chain mreži (`wallet.domovina.ai`), s pas
 
 <br clear="left">
 
+### Lopta je okrugla
+<img src="domovina_lopta_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Lopta je okrugla logotip">
+
+Otvorena nogometna analitička platforma (`nogomet.domovina.ai`) — kvantitativne predikcije utakmica (Dixon-Coles model) i Monte-Carlo simulacija turnira, počevši sa Svjetskim prvenstvom 2026. Naziv dolazi iz najpoznatije nogometne uzrečice: lopta je okrugla — i najbolje predikcije imaju iznimke, a baš ta neizvjesnost čar je nogometa. Središnji simbol — lopta (kružnica) s tri stupca vjerojatnosti ishoda 1-X-2 u unutrašnjosti — spaja domenu (nogomet) s namjenom proizvoda (statistička predikcija).
+
+<br clear="left">
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -121,6 +130,7 @@ Self-custody EURe novčanik na Gnosis Chain mreži (`wallet.domovina.ai`), s pas
 | Domovina Provjera | [`domovina_provjera_logo_square.svg`](domovina_provjera_logo_square.svg) | [`domovina_provjera_logo_square.png`](domovina_provjera_logo_square.png) |
 | Domovina Pay | [`domovina_pay_logo_square.svg`](domovina_pay_logo_square.svg) | [`domovina_pay_logo_square.png`](domovina_pay_logo_square.png) |
 | Domovina Wallet | [`domovina_wallet_logo_square.svg`](domovina_wallet_logo_square.svg) | [`domovina_wallet_logo_square.png`](domovina_wallet_logo_square.png) |
+| Lopta je okrugla | [`domovina_lopta_logo_square.svg`](domovina_lopta_logo_square.svg) | [`domovina_lopta_logo_square.png`](domovina_lopta_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -133,7 +143,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud karta provjera pay wallet; do
+for name in tv ai energy klubovi cloud karta provjera pay wallet lopta; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
@@ -169,7 +179,7 @@ Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecom
 
 ## O brendu i nazivima
 
-**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"**, **„Domovina Karta"**, **„Domovina Provjera"**, **„Domovina Pay"** i **„Domovina Wallet"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"**, **„Domovina Karta"**, **„Domovina Provjera"**, **„Domovina Pay"**, **„Domovina Wallet"** i **„Lopta je okrugla"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
 CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
