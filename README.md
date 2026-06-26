@@ -134,6 +134,26 @@ Otvorena nogometna analitička platforma (`nogomet.domovina.ai`) — kvantitativ
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
+## Sponzorski i event materijali
+
+Gotovi **DOMOVINA.ai** blokovi za tisak (cerada, sponzorski zid, banner uz teren). Uz logotip nose i poruku *„Slušaj i čitaj hrvatske podcaste — besplatno"* te **QR kod koji vodi na [`https://domovina.ai/`](https://domovina.ai/)** — namijenjeni su sponzorstvima i događanjima na kojima se publika potiče da odmah skenira i otvori aplikaciju.
+
+<p align="center">
+  <img src="domovina_ai_sponsor_banner.svg" width="560" alt="DOMOVINA.ai sponzorski banner 2:1">
+</p>
+<p align="center">
+  <img src="domovina_ai_sponsor_square.svg" width="280" alt="DOMOVINA.ai sponzorski kvadrat 1:1">
+</p>
+
+| Format | Omjer | Namjena | Vektor (SVG) | Raster (PNG) |
+|---|---|---|---|---|
+| Banner | 2 : 1 | Vodoravna traka / cerada | [`domovina_ai_sponsor_banner.svg`](domovina_ai_sponsor_banner.svg) | [`domovina_ai_sponsor_banner.png`](domovina_ai_sponsor_banner.png) |
+| Kvadrat | 1 : 1 | Logo slot u mreži sponzora | [`domovina_ai_sponsor_square.svg`](domovina_ai_sponsor_square.svg) | [`domovina_ai_sponsor_square.png`](domovina_ai_sponsor_square.png) |
+
+- **QR kod** je generiran s razinom korekcije grešaka **H (~30 %)**, pa ostaje čitljiv i kad je cerada izgužvana, prljava ili djelomično zaklonjena. Sadrži ugrađenu bijelu „mirnu zonu" (*quiet zone*) — ne lijepite ništa preko ruba koda.
+- **Za tisak uvijek koristite SVG** — vektor ostaje oštar na svakoj veličini cerade. PNG je priložen samo za brzi pregled i alate koji ne podržavaju SVG.
+- **Prije slanja u tisak skenirajte QR** s nekoliko uređaja da potvrdite da vodi na `domovina.ai`.
+
 ## Generiranje PNG-ova iz SVG-a
 
 Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoću alata [`rsvg-convert`](https://wiki.gnome.org/Projects/LibRsvg) (dio paketa `librsvg`):
