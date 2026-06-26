@@ -136,7 +136,7 @@ Otvorena nogometna analitička platforma (`nogomet.domovina.ai`) — kvantitativ
 
 ## Sponzorski i event materijali
 
-Gotovi **DOMOVINA.ai** blokovi za tisak (cerada, sponzorski zid, banner uz teren). Uz logotip nose i poruku *„Slušaj i čitaj hrvatske podcaste — besplatno"* te **QR kod koji vodi na [`https://domovina.ai/mnt-kaj-2026`](https://domovina.ai/mnt-kaj-2026)** — namijenjeni su sponzorstvima i događanjima na kojima se publika potiče da odmah skenira i otvori aplikaciju. Ta ruta vodi identično na naslovnicu, ali omogućuje praćenje koliko je posjeta došlo baš s ovog događanja (analitika kampanje).
+Gotovi **DOMOVINA.ai** blokovi za tisak (cerada, sponzorski zid, banner uz teren). Uz logotip nose i poruku *„Slušaj i čitaj hrvatske podcaste — besplatno"* te **QR kod koji vodi na [`https://domovina.ai/`](https://domovina.ai/)** — namijenjeni su sponzorstvima i događanjima na kojima se publika potiče da odmah skenira i otvori aplikaciju. Za pojedino događanje QR se po potrebi regenerira na rutu za praćenje kampanje (npr. `domovina.ai/<event>`) koja vodi identično na naslovnicu.
 
 <p align="center">
   <img src="domovina_ai_sponsor_banner.svg" width="560" alt="DOMOVINA.ai sponzorski banner 2:1">
