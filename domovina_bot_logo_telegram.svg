@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="croFlagVertical" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#FF0000"/> <stop offset="33.3%" stop-color="#FF0000"/>
+<stop offset="33.3%" stop-color="#FFFFFF"/> <stop offset="66.6%" stop-color="#FFFFFF"/>
+<stop offset="66.6%" stop-color="#002F6C"/> <stop offset="100%" stop-color="#002F6C"/>
+</linearGradient>
+</defs>
+
+<rect width="512" height="512" rx="32" fill="white"/>
+
+<!-- Telegram varijanta: cijeli DOMOVINA "D" + bot glif pomaknuti udesno i lagano
+     skalirani tako da stanu unutar Telegramovog kruznog izreza (sigurni radijus). -->
+<g transform="translate(28 0) translate(256 256) scale(0.95) translate(-256 -256)">
+
+  <!-- D bowl (hrvatska zastava) -->
+  <path d="M72 64H248C354.071 64 440 149.929 440 256C440 362.071 354.071 448 248 448H72V64Z" fill="url(#croFlagVertical)"/>
+
+  <!-- D counter (bijela unutrasnjost) -->
+  <path d="M168 160H248C301.019 160 344 202.981 344 256C344 309.019 301.019 352 248 352H168V160Z" fill="white"/>
+
+  <!-- Bot glif: robot glava (DOMOVINA plava, crvena antena = HR accent) -->
+  <g>
+    <!-- antena -->
+    <rect x="252" y="180" width="8" height="20" rx="4" fill="#002F6C"/>
+    <circle cx="256" cy="173" r="9" fill="#FF0000"/>
+
+    <!-- usi -->
+    <rect x="186" y="232" width="12" height="36" rx="6" fill="#002F6C"/>
+    <rect x="314" y="232" width="12" height="36" rx="6" fill="#002F6C"/>
+
+    <!-- glava -->
+    <rect x="198" y="198" width="116" height="106" rx="24" fill="#002F6C"/>
+
+    <!-- oci -->
+    <circle cx="230" cy="240" r="14" fill="white"/>
+    <circle cx="282" cy="240" r="14" fill="white"/>
+    <circle cx="230" cy="240" r="5.5" fill="#002F6C"/>
+    <circle cx="282" cy="240" r="5.5" fill="#002F6C"/>
+
+    <!-- usta -->
+    <rect x="228" y="274" width="56" height="12" rx="6" fill="white"/>
+  </g>
+
+</g>
+</svg>
