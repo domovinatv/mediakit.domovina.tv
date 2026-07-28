@@ -22,6 +22,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_wallet_logo_square.svg" width="140" alt="Domovina Wallet">
   &nbsp;&nbsp;
   <img src="domovina_lopta_logo_square.svg" width="140" alt="Lopta je okrugla">
+  &nbsp;&nbsp;
+  <img src="domovina_studio_logo_square.svg" width="140" alt="Domovina Studio">
 </p>
 
 ## O repozitoriju
@@ -117,6 +119,13 @@ Otvorena nogometna analitička platforma (`nogomet.domovina.ai`) — kvantitativ
 
 <br clear="left">
 
+### Domovina Studio
+<img src="domovina_studio_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Studio logotip">
+
+macOS aplikacija za snimanje podcasta u vlastitom studiju — istovremeno hvata izolirane audio tragove sa svakog mikrofona i video s kamere, uz zajednički vremenski referentni okvir koji omogućuje precizno poravnanje slike i zvuka u montaži. Alat kojim nastaje sadržaj za **Domovina TV**. Središnji simbol — studijski mikrofon u elastičnom nosaču (*shock mount*), sa stalkom i postoljem — univerzalno je prepoznatljiv znak za snimanje govora i neposredno označava domenu proizvoda: produkciju, a ne reprodukciju sadržaja.
+
+<br clear="left">
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -131,6 +140,7 @@ Otvorena nogometna analitička platforma (`nogomet.domovina.ai`) — kvantitativ
 | Domovina Pay | [`domovina_pay_logo_square.svg`](domovina_pay_logo_square.svg) | [`domovina_pay_logo_square.png`](domovina_pay_logo_square.png) |
 | Domovina Wallet | [`domovina_wallet_logo_square.svg`](domovina_wallet_logo_square.svg) | [`domovina_wallet_logo_square.png`](domovina_wallet_logo_square.png) |
 | Lopta je okrugla | [`domovina_lopta_logo_square.svg`](domovina_lopta_logo_square.svg) | [`domovina_lopta_logo_square.png`](domovina_lopta_logo_square.png) |
+| Domovina Studio | [`domovina_studio_logo_square.svg`](domovina_studio_logo_square.svg) | [`domovina_studio_logo_square.png`](domovina_studio_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -163,7 +173,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud karta provjera pay wallet lopta; do
+for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
@@ -199,7 +209,7 @@ Puni pravni tekst dostupan je u datoteci [`LICENSE`](LICENSE) te na [creativecom
 
 ## O brendu i nazivima
 
-**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"**, **„Domovina Karta"**, **„Domovina Provjera"**, **„Domovina Pay"**, **„Domovina Wallet"** i **„Lopta je okrugla"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
+**Domovina** je trenutno osobni projekt u ranoj fazi razvoja. Iza naziva **„Domovina"**, **„Domovina TV"**, **„Domovina AI"**, **„Domovina Energy"**, **„Domovina Klubovi"**, **„Domovina Cloud"**, **„Domovina Karta"**, **„Domovina Provjera"**, **„Domovina Pay"**, **„Domovina Wallet"**, **„Lopta je okrugla"** i **„Domovina Studio"** zasad **ne stoji registrirana pravna osoba ni registrirani žig** — riječ je o radnim nazivima koje autor koristi za identifikaciju projekta.
 
 CC BY-ND 4.0 licenca odnosi se na **autorska prava na grafičkom djelu**. Ne treba je tumačiti kao dopuštenje za preuzimanje naziva ili logotipa kao identiteta nekog drugog proizvoda, usluge, tvrtke ili inicijative.
 
