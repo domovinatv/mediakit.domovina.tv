@@ -126,6 +126,40 @@ macOS aplikacija za snimanje podcasta u vlastitom studiju — istovremeno hvata 
 
 <br clear="left">
 
+## Srodni brendovi: MPT, airKUNA i pay.domovina.ai
+
+<p align="center">
+  <img src="mpt_logo_square.svg" width="120" alt="MPT">
+  &nbsp;&nbsp;
+  <img src="airkuna_logo_square.svg" width="120" alt="airKUNA">
+  &nbsp;&nbsp;
+  <img src="pay_logo_square.svg" width="120" alt="pay.domovina.ai">
+  &nbsp;&nbsp;
+  <img src="airkuna_token.svg" width="120" alt="airKUNA token">
+</p>
+
+Tri povezana brenda platnog sustava imaju vlastiti vizualni sustav, odvojen od okvira slova „D“, ali na istoj tamnoplavoj (`#002F6C`):
+
+- **Tamnoplava pločica** (zaobljeni kvadrat, radijus 8 na platnu 32 × 32) za proizvod, **kovanica** za token.
+- **Bijeli geometrijski znak** s ravno odrezanim krajevima, bez okruglih kapica i slobodnih krivulja.
+- **Zlatni detalj** (`#E3AF35`, rub kovanice `#C8912A`) koji nosi značenje znaka.
+
+| Znak | Brend | Značenje |
+|---|---|---|
+| M | **MPT** (Mint Pay Transfer, [mpt.hr](https://mpt.hr)) | Srednji „V“ slova M zlatni je chevron prema dolje: uplata stiže izravno trgovcu. |
+| K | **airKUNA** | Krakovi slova K zlatni su chevron. Isti potez kao kod MPT-a, drugo slovo. |
+| € | **pay.domovina.ai**, otvoreni kod platnog sustava | Geometrijski znak eura: bijeli kružni luk, zlatne paralelne crte koso odrezanih krajeva. |
+| K u kovanici | **airKUNA token** | Isti K u kovanici sa zlatnim rubom, za popise tokena, novčanike i favicon. |
+
+Znak za pay.domovina.ai označava sam otvoreni platni sustav (repozitorij, aplikacija, favicon). Logotip **Domovina Pay** iznad ostaje znak tog proizvoda unutar obitelji Domovina.
+
+| Brend | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
+|---|---|---|
+| MPT | [`mpt_logo_square.svg`](mpt_logo_square.svg) | [`mpt_logo_square.png`](mpt_logo_square.png) |
+| airKUNA | [`airkuna_logo_square.svg`](airkuna_logo_square.svg) | [`airkuna_logo_square.png`](airkuna_logo_square.png) |
+| pay.domovina.ai | [`pay_logo_square.svg`](pay_logo_square.svg) | [`pay_logo_square.png`](pay_logo_square.png) |
+| airKUNA token | [`airkuna_token.svg`](airkuna_token.svg) | [`airkuna_token.png`](airkuna_token.png) |
+
 ## Datoteke
 
 | Proizvod | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
@@ -177,6 +211,11 @@ for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio; d
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
+done
+
+# srodni brendovi (MPT, airKUNA, pay.domovina.ai)
+for name in mpt_logo_square airkuna_logo_square pay_logo_square airkuna_token; do
+  rsvg-convert -w 2048 -h 2048 "${name}.svg" -o "${name}.png"
 done
 ```
 
