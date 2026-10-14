@@ -13,9 +13,9 @@
 
 <path d="M168 160H248C301.019 160 344 202.981 344 256C344 309.019 301.019 352 248 352H168V160Z" fill="white"/>
 
-<g fill="none" stroke="#002F6C" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 300 208 Q 200 208 200 256 Q 200 304 300 304" stroke-width="30"/>
-    <line x1="186" y1="242" x2="304" y2="242" stroke-width="14"/>
-    <line x1="186" y1="270" x2="304" y2="270" stroke-width="14"/>
+<circle cx="256" cy="256" r="70" fill="#002F6C"/>
+<g fill="white">
+    <path d="M292.64 230.29A40 40 0 1 0 292.64 281.71L282.68 273.36A27 27 0 1 1 282.68 238.64Z"/>
+    <path d="M214 243H276L272 252H210ZM214 260H272.4L268.4 269H210Z"/>
 </g>
 </svg>

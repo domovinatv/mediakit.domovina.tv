@@ -101,7 +101,7 @@ Obitelj offline web alata za samoprocjenu mentalnog zdravlja u odraslih, izgrađ
 ### Domovina Pay
 <img src="domovina_pay_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Pay logotip">
 
-Generator platnih barkodova za hrvatska plaćanja i most prema *on-chain* euru (`pay.domovina.ai`). Iz jedne forme producira SEPA EPC QR (Revolut, Wise, sve EPC-kompatibilne aplikacije), HUB3 PDF417 (FINA, mobilno bankarstvo hrvatskih banaka) i EIP-681 wallet QR za Monerium EURe odnosno Gnosis Chain. Središnji simbol — znak eura (`€`) — neposredno označava domenu proizvoda: eurom denominirane prijenose, neovisno o tome odvijaju li se SEPA tračnicama ili javnom blockchain mrežom.
+Generator platnih barkodova za hrvatska plaćanja i most prema *on-chain* euru (`pay.domovina.ai`). Iz jedne forme producira SEPA EPC QR (Revolut, Wise, sve EPC-kompatibilne aplikacije), HUB3 PDF417 (FINA, mobilno bankarstvo hrvatskih banaka) i EIP-681 wallet QR za Monerium EURe odnosno Gnosis Chain. Središnji simbol — kovanica s bijelim znakom eura (`€`) — označava domenu proizvoda: plaćanje u eurima, neovisno o tome odvija li se SEPA tračnicama ili javnom blockchain mrežom. Znak je geometrijski konstruiran (kružni luk, paralelne crte koso odrezanih krajeva), a puna ploha kovanice drži težinu uz ostale pune simbole obitelji i čitljivost na malim veličinama.
 
 <br clear="left">
 
