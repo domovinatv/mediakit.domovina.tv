@@ -32,4 +32,13 @@ Zajednički nazivnik: **samo puni geometrijski oblici, ravno odrezani krajevi.**
 ## Otvoreno
 
 - Admin logo na mpt.domovina.ai deployan, ali vizualno neprovjeren (iza Cloudflare Access prijave).
-- OMM (omm.domovina.ai) još nema svoj znak; prijedlog: D okvir s geometrijskim simbolom (DOMOVINA servis), odluka o zelenoj vs. tamnoplavoj paleti čeka.
+- OMM: varijante A i B u mediakitu, konačan izbor čeka (vidi poglavlje OMM gore).
+
+## OMM (dodano 15.10.2026.)
+
+Druga sesija je po promptu iz ove napravila dvije varijante, obje s istim simbolom (prsten „O“ i munja, munja kao zaseban `<path>`, prsten jedan path s namjernom rupom preko evenodd):
+
+- **B** `omm_logo_square`: pločica, bijeli prsten, zlatna munja. Aktivna na omm.domovina.ai; za tamnu temu web ima `logo-noc.svg` (bijela pločica, tamnoplavi prsten).
+- **A** `domovina_omm_logo_square`: D okvir, prsten i munja tamnoplavi. Na webu s `?znak=a`. Munja je ista kao u Domovina Energy, pa se dva znaka razlikuju samo prstenom.
+
+Odluka A vs. B još nije konačna (omm repo `CLAUDE.md`, „Izgled“). Kad se odluči, odbačenu varijantu u README označiti kao odbačenu, ali datoteku ostaviti.

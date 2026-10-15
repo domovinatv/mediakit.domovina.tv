@@ -24,6 +24,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_lopta_logo_square.svg" width="140" alt="Lopta je okrugla">
   &nbsp;&nbsp;
   <img src="domovina_studio_logo_square.svg" width="140" alt="DOMOVINA Studio">
+  &nbsp;&nbsp;
+  <img src="domovina_omm_logo_square.svg" width="140" alt="Domovina OMM">
 </p>
 
 ## O repozitoriju
@@ -126,6 +128,14 @@ macOS aplikacija za snimanje podcasta u vlastitom studiju — istovremeno hvata 
 
 <br clear="left">
 
+### Domovina OMM
+<img src="omm_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="OMM logotip (opcija B)">
+<img src="domovina_omm_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina OMM logotip (opcija A)">
+
+Servis [omm.domovina.ai](https://omm.domovina.ai) za očitanja brojila i izvještaje potrošnje po obračunskom mjernom mjestu (OMM). Simbol je prsten „O“ s munjom ravno odrezanih krajeva. Postoje dvije varijante, a odluka još nije konačna: **opcija B** (`omm_logo_square`, aktivna na webu) je tamnoplava pločica s bijelim prstenom i zlatnom munjom, u stilu srodnih brendova ispod; **opcija A** (`domovina_omm_logo_square`, na webu s `?znak=a`) je isti simbol u okviru slova „D“.
+
+<br clear="left">
+
 ## Srodni brendovi: MPT, airKUNA i pay.domovina.ai
 
 <p align="center">
@@ -177,6 +187,8 @@ Odbačene varijante, zamke pri crtanju i popis kopija: [docs/2026-10-14-znakovi-
 | Domovina Wallet | [`domovina_wallet_logo_square.svg`](domovina_wallet_logo_square.svg) | [`domovina_wallet_logo_square.png`](domovina_wallet_logo_square.png) |
 | Lopta je okrugla | [`domovina_lopta_logo_square.svg`](domovina_lopta_logo_square.svg) | [`domovina_lopta_logo_square.png`](domovina_lopta_logo_square.png) |
 | DOMOVINA Studio | [`domovina_studio_logo_square.svg`](domovina_studio_logo_square.svg) | [`domovina_studio_logo_square.png`](domovina_studio_logo_square.png) |
+| Domovina OMM, opcija A | [`domovina_omm_logo_square.svg`](domovina_omm_logo_square.svg) | [`domovina_omm_logo_square.png`](domovina_omm_logo_square.png) |
+| OMM, opcija B | [`omm_logo_square.svg`](omm_logo_square.svg) | [`omm_logo_square.png`](omm_logo_square.png) |
 
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
@@ -209,14 +221,14 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio; do
+for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio omm; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
 done
 
-# srodni brendovi (MPT, airKUNA, pay.domovina.ai)
-for name in mpt_logo_square airkuna_logo_square pay_logo_square airkuna_token; do
+# srodni brendovi (MPT, airKUNA, pay.domovina.ai) i OMM pločica
+for name in mpt_logo_square airkuna_logo_square pay_logo_square airkuna_token omm_logo_square; do
   rsvg-convert -w 2048 -h 2048 "${name}.svg" -o "${name}.png"
 done
 ```
