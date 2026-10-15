@@ -153,6 +153,8 @@ Tri povezana brenda platnog sustava imaju vlastiti vizualni sustav, odvojen od o
 
 Znak za pay.domovina.ai označava sam otvoreni platni sustav (repozitorij, aplikacija, favicon). Logotip **Domovina Pay** iznad ostaje znak tog proizvoda unutar obitelji Domovina.
 
+Odbačene varijante, zamke pri crtanju i popis kopija: [docs/2026-10-14-znakovi-srodnih-brendova.md](docs/2026-10-14-znakovi-srodnih-brendova.md).
+
 | Brend | Vektor (SVG) | Raster (PNG, 2048 × 2048) |
 |---|---|---|
 | MPT | [`mpt_logo_square.svg`](mpt_logo_square.svg) | [`mpt_logo_square.png`](mpt_logo_square.png) |
