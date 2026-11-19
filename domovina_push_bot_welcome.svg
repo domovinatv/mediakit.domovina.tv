@@ -1,0 +1,44 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="croFlagVertical" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#FF0000"/> <stop offset="33.3%" stop-color="#FF0000"/>
+<stop offset="33.3%" stop-color="#FFFFFF"/> <stop offset="66.6%" stop-color="#FFFFFF"/>
+<stop offset="66.6%" stop-color="#002F6C"/> <stop offset="100%" stop-color="#002F6C"/>
+</linearGradient>
+</defs>
+
+<rect width="640" height="360" fill="white"/>
+<!-- tanka HR traka na dnu -->
+<rect y="348" width="214" height="12" fill="#FF0000"/>
+<rect x="213" y="348" width="214" height="12" fill="#FFFFFF"/>
+<rect x="426" y="348" width="214" height="12" fill="#002F6C"/>
+<rect y="347" width="640" height="1" fill="#E3E7EE"/>
+
+<!-- znak -->
+<g transform="translate(14 48) scale(0.5)">
+  <!-- D bowl (hrvatska zastava) -->
+  <path d="M72 64H248C354.071 64 440 149.929 440 256C440 362.071 354.071 448 248 448H72V64Z" fill="url(#croFlagVertical)"/>
+
+  <!-- D counter (bijela unutrasnjost) -->
+  <path d="M168 160H248C301.019 160 344 202.981 344 256C344 309.019 301.019 352 248 352H168V160Z" fill="white"/>
+
+  <!-- Push glif: zvono obavijesti (DOMOVINA plava) + crvena tocka nove obavijesti (HR accent) -->
+  <g>
+    <!-- drska -->
+    <circle cx="252" cy="196" r="9" fill="#002F6C"/>
+    <!-- tijelo zvona -->
+    <path d="M252 202C218 202 202 228 202 260V282L188 298H316L302 282V260C302 228 286 202 252 202Z" fill="#002F6C"/>
+    <!-- jezicak -->
+    <circle cx="252" cy="312" r="12" fill="#002F6C"/>
+    <!-- nova obavijest -->
+    <circle cx="300" cy="214" r="17" fill="#FF0000" stroke="white" stroke-width="6"/>
+  </g>
+</g>
+
+<g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#002F6C">
+  <text x="262" y="132" font-size="40" font-weight="700" letter-spacing="2">DOMOVINA</text>
+  <text x="262" y="178" font-size="24" font-weight="500">Nove epizode podcasta</text>
+  <text x="262" y="210" font-size="24" font-weight="500">i sva njihova poglavlja</text>
+  <text x="262" y="262" font-size="20" font-weight="700" fill="#FF0000">domovina.ai</text>
+</g>
+</svg>

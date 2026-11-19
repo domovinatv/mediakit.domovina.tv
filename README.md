@@ -190,6 +190,23 @@ Odbačene varijante, zamke pri crtanju i popis kopija: [docs/2026-10-14-znakovi-
 | Domovina OMM, opcija A | [`domovina_omm_logo_square.svg`](domovina_omm_logo_square.svg) | [`domovina_omm_logo_square.png`](domovina_omm_logo_square.png) |
 | OMM, opcija B | [`omm_logo_square.svg`](omm_logo_square.svg) | [`omm_logo_square.png`](omm_logo_square.png) |
 
+## Telegram botovi
+
+| Bot | Namjena | Avatar (Telegram, krug) | Kvadrat |
+|---|---|---|---|
+| @domovina_bot | interni alerti (noćni build, backup) | [`domovina_bot_logo_telegram.png`](domovina_bot_logo_telegram.png) | [`domovina_bot_logo_square.svg`](domovina_bot_logo_square.svg) |
+| @domovina_push_bot | kanali podcasta: nove epizode i poglavlja | [`domovina_push_bot_logo_telegram.png`](domovina_push_bot_logo_telegram.png) | [`domovina_push_bot_logo_square.svg`](domovina_push_bot_logo_square.svg) |
+
+Znak push bota je zvono obavijesti s crvenom točkom nove obavijesti. Telegram varijanta je pomaknuta udesno i smanjena na 95 % da „D” stane u kružni izrez avatara (isto kao kod @domovina_bot).
+
+Slika dobrodošlice („What can this bot do?”) mora biti točno **640 × 360**: [`domovina_push_bot_welcome.png`](domovina_push_bot_welcome.png) ([SVG](domovina_push_bot_welcome.svg)).
+
+<p align="center">
+  <img src="domovina_push_bot_logo_telegram.svg" width="110" alt="@domovina_push_bot avatar">
+  &nbsp;&nbsp;
+  <img src="domovina_push_bot_welcome.svg" width="320" alt="@domovina_push_bot slika dobrodošlice">
+</p>
+
 **Preporuka:** za sve digitalne i tiskane primjene koristite SVG kad god je to moguće — vektor ostaje oštar pri bilo kojoj veličini. PNG koristite isključivo ondje gdje SVG nije podržan (primjerice u nekim alatima za društvene mreže ili pri pripremi sažetaka u e-mailovima).
 
 ## Sponzorski i event materijali
