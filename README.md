@@ -26,6 +26,8 @@ Službeni brand resursi obitelji proizvoda **Domovina**.
   <img src="domovina_studio_logo_square.svg" width="140" alt="DOMOVINA Studio">
   &nbsp;&nbsp;
   <img src="domovina_omm_logo_square.svg" width="140" alt="Domovina OMM">
+  &nbsp;&nbsp;
+  <img src="domovina_ulaznice_logo_square.svg" width="140" alt="Domovina Ulaznice">
 </p>
 
 ## O repozitoriju
@@ -136,6 +138,13 @@ Servis [omm.domovina.ai](https://omm.domovina.ai) za očitanja brojila i izvješ
 
 <br clear="left">
 
+### Domovina Ulaznice
+<img src="domovina_ulaznice_logo_square.svg" width="110" align="left" hspace="20" vspace="4" alt="Domovina Ulaznice logotip">
+
+Prodaja ulaznica za događaje bez posrednika i bez naknade platforme (`ulaznice.domovina.ai`). Organizator prodaje s vlastite stranice, novac ide izravno na njegov Stripe račun, a ulaznica je QR kod koji se skenira na ulazu. Središnji simbol — ulaznica s polukružnim urezima na bočnim stranama i perforacijom koja odvaja kupon — univerzalno je prepoznatljiv znak za ulaz na događaj. Ulaznica je puna ploha ravnih rubova i iste težine kao kovanica u Domovina Pay, pa ostaje čitljiva na 32 px; na 16 px perforacija nestaje, a obris s urezima ostaje.
+
+<br clear="left">
+
 ## Srodni brendovi: MPT, airKUNA i pay.domovina.ai
 
 <p align="center">
@@ -189,6 +198,7 @@ Odbačene varijante, zamke pri crtanju i popis kopija: [docs/2026-10-14-znakovi-
 | DOMOVINA Studio | [`domovina_studio_logo_square.svg`](domovina_studio_logo_square.svg) | [`domovina_studio_logo_square.png`](domovina_studio_logo_square.png) |
 | Domovina OMM, opcija A | [`domovina_omm_logo_square.svg`](domovina_omm_logo_square.svg) | [`domovina_omm_logo_square.png`](domovina_omm_logo_square.png) |
 | OMM, opcija B | [`omm_logo_square.svg`](omm_logo_square.svg) | [`omm_logo_square.png`](omm_logo_square.png) |
+| Domovina Ulaznice | [`domovina_ulaznice_logo_square.svg`](domovina_ulaznice_logo_square.svg) | [`domovina_ulaznice_logo_square.png`](domovina_ulaznice_logo_square.png) |
 
 ## Telegram botovi
 
@@ -238,7 +248,7 @@ Sve PNG datoteke u repozitoriju generirane su iz pripadajućih SVG izvora pomoć
 brew install librsvg
 
 # generiranje svih logotipa na 2048 × 2048
-for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio omm; do
+for name in tv ai energy klubovi cloud karta provjera pay wallet lopta studio omm ulaznice; do
   rsvg-convert -w 2048 -h 2048 \
     "domovina_${name}_logo_square.svg" \
     -o "domovina_${name}_logo_square.png"
